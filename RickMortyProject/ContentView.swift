@@ -15,6 +15,36 @@ struct ContentView: View {
         ZStack {
             // Background image
             Image("RMBackground")
+                .opacity(0.4)
+            
+            HStack {
+                //SearchBar
+            }
+            
+            HStack {
+                //Lista de Personagens
+                VStack {
+                    //Imagem de Personagens
+                }
+                
+                Spacer()
+                
+                HStack {
+                    
+                    VStack {
+                        //Nome do Personagem
+                    }
+                    
+                    VStack {
+                        //Descrição do Personagem
+                    }
+                    
+                    VStack {
+                        //Botão de Detalhes
+                    }
+                }
+            }
+            
         }
             
     }
